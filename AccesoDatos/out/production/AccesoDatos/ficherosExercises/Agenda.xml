@@ -1,0 +1,20 @@
+<ListaContactosAgenda>
+  <DatosContacto>
+    <name>Adrian</name>
+    <tel prefijo="+34">956000000</tel>
+    <address localidad="Algeciras">Avenida Oceania</address>
+    <birth>10/11/1997</birth>
+    <postal>11204</postal>
+    <money>false</money>
+    <amount tipoMoneda="€">0.0</amount>
+  </DatosContacto>
+  <DatosContacto>
+    <name>Juan</name>
+    <tel prefijo="+20">956111111</tel>
+    <address localidad="La Linea">Avenida America</address>
+    <birth>01/01/2000</birth>
+    <postal>11203</postal>
+    <money>true</money>
+    <amount tipoMoneda="€">23.0</amount>
+  </DatosContacto>
+</ListaContactosAgenda>
