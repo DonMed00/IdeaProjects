@@ -1,0 +1,22 @@
+{
+  "listAgenda": [
+    {
+      "name": "Adrian",
+      "tel": 956000000,
+      "address": "Avenida Oceania",
+      "birth": "10/11/1997",
+      "postal": 11204,
+      "money": false,
+      "amount": 0.0
+    },
+    {
+      "name": "Juan",
+      "tel": 956111111,
+      "address": "Avenida America",
+      "birth": "01/01/2000",
+      "postal": 11203,
+      "money": true,
+      "amount": 23.0
+    }
+  ]
+}
