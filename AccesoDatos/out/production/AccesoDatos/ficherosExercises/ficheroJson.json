@@ -4,7 +4,11 @@
       "name": "Adrian",
       "tel": 956000000,
       "address": "Avenida Oceania",
-      "birth": "10/11/1997",
+      "birth": {
+        "year":1997 ,
+        "month":11 ,
+        "day": 10
+      },
       "postal": 11204,
       "money": false,
       "amount": 0.0
@@ -13,7 +17,11 @@
       "name": "Juan",
       "tel": 956111111,
       "address": "Avenida America",
-      "birth": "01/01/2000",
+      "birth": {
+        "year":2002 ,
+        "month":1 ,
+        "day": 1
+      },
       "postal": 11203,
       "money": true,
       "amount": 23.0

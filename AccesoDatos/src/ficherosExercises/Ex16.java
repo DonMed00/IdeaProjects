@@ -11,8 +11,8 @@ public class Ex16 {
     public static void main(String[] args) throws IOException {
         File json = new File("C:\\Users\\Usuario\\IdeaProjects\\AccesoDatos\\src\\ficherosExercises\\ficheroJson.json");
         BufferedReader reader = null;
-        Pattern pattern, pattern2;
-        Matcher matcher, matcher2;
+        Pattern pattern;
+        Matcher matcher;
         String cadena;
         try {
             reader = new BufferedReader(new FileReader(json));
@@ -20,23 +20,16 @@ public class Ex16 {
             e.printStackTrace();
         }
         System.out.println("Introduce nombre a encontrar");
-        pattern = Pattern.compile(".*(" + leerString() + ").*");
-        pattern2 = Pattern.compile(".*(" + "}," + ").*");
-        boolean a = false;
+        pattern = Pattern.compile(".*name.*(" + leerString() + ")\",");
+        boolean a = true;
 
-        while ((cadena = reader.readLine()) != null) {
+        while ((cadena = reader.readLine()) != null && a) {
             matcher = pattern.matcher(cadena);
 
-            if (matcher.find() || a) {
-                System.out.println(cadena.trim());
+            if (matcher.find()) {
+                System.out.println(matcher.group(1));
+                a = false;
             }
-
-
-            matcher2 = pattern.matcher(cadena);
-            if (!matcher2.find()) {
-                System.out.println(cadena.trim());
-            }
-
         }
     }
 }
