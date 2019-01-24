@@ -1,0 +1,44 @@
+<ListaAlumnos>
+  <DatosAlumno>
+    <nombre>Antonio Serrano</nombre>
+    <fnac>2000-10-11</fnac>
+    <n__asignaturas>3</n__asignaturas>
+    <altura>60.89</altura>
+    <repetidor>true</repetidor>
+  </DatosAlumno>
+  <DatosAlumno>
+    <nombre>Pepe Santos</nombre>
+    <fnac>1999-01-09</fnac>
+    <n__asignaturas>6</n__asignaturas>
+    <altura>70.56</altura>
+    <repetidor>false</repetidor>
+  </DatosAlumno>
+  <DatosAlumno>
+    <nombre>Ana Lozano</nombre>
+    <fnac>1998-02-23</fnac>
+    <n__asignaturas>2</n__asignaturas>
+    <altura>65.45</altura>
+    <repetidor>true</repetidor>
+  </DatosAlumno>
+  <DatosAlumno>
+    <nombre>Pedro Torres</nombre>
+    <fnac>1997-03-14</fnac>
+    <n__asignaturas>6</n__asignaturas>
+    <altura>69.47</altura>
+    <repetidor>false</repetidor>
+  </DatosAlumno>
+  <DatosAlumno>
+    <nombre>Ana Lozano</nombre>
+    <fnac>1998-02-23</fnac>
+    <n__asignaturas>2</n__asignaturas>
+    <altura>65.45</altura>
+    <repetidor>true</repetidor>
+  </DatosAlumno>
+  <DatosAlumno>
+    <nombre>Pedro Torres</nombre>
+    <fnac>1997-03-14</fnac>
+    <n__asignaturas>6</n__asignaturas>
+    <altura>69.47</altura>
+    <repetidor>false</repetidor>
+  </DatosAlumno>
+</ListaAlumnos>

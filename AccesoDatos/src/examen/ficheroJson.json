@@ -1,0 +1,70 @@
+{
+  "listAlumno": [
+    {
+      "nombre": "Antonio Serrano",
+      "fnac": {
+        "year": 2000,
+        "month": 10,
+        "day": 11
+      },
+      "n_asignaturas": 3,
+      "altura": 60.89,
+      "repetidor": true
+    },
+    {
+      "nombre": "Pepe Santos",
+      "fnac": {
+        "year": 1999,
+        "month": 1,
+        "day": 9
+      },
+      "n_asignaturas": 6,
+      "altura": 70.56,
+      "repetidor": false
+    },
+    {
+      "nombre": "Ana Lozano",
+      "fnac": {
+        "year": 1998,
+        "month": 2,
+        "day": 23
+      },
+      "n_asignaturas": 2,
+      "altura": 65.45,
+      "repetidor": true
+    },
+    {
+      "nombre": "Pedro Torres",
+      "fnac": {
+        "year": 1997,
+        "month": 3,
+        "day": 14
+      },
+      "n_asignaturas": 6,
+      "altura": 69.47,
+      "repetidor": false
+    },
+    {
+      "nombre": "Ana Lozano",
+      "fnac": {
+        "year": 1998,
+        "month": 2,
+        "day": 23
+      },
+      "n_asignaturas": 2,
+      "altura": 65.45,
+      "repetidor": true
+    },
+    {
+      "nombre": "Pedro Torres",
+      "fnac": {
+        "year": 1997,
+        "month": 3,
+        "day": 14
+      },
+      "n_asignaturas": 6,
+      "altura": 69.47,
+      "repetidor": false
+    }
+  ]
+}
