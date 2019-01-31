@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Ex05 {
+public class Ex06 {
     public static void main(String[] args) {
-        String sql = "update asignatura a join reparto r on a.codAsig=r.codAsig set horasSemanales=1.1*horasSemanales,horasTotales=1.1*horasTotales  where a.codAsig like ('M%') and codOe='FPB'";
+        String sql ="delete from ofertaeducativa where codOe='FPB'";
 
 
         try {
@@ -18,6 +18,12 @@ public class Ex05 {
 
             sentencia = conexion.createStatement();
 
+            sentencia.executeUpdate(sql);
+
+            sql ="delete from profesor where codProf='DAS'";
+            sentencia.executeUpdate(sql);
+
+            sql ="delete from asignatura where codAsig in ('OACE','MMSCI')";
             sentencia.executeUpdate(sql);
 
             sentencia.close();

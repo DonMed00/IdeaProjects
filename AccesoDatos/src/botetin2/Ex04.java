@@ -56,7 +56,8 @@ public class Ex04 {
 
 
 
-
+            sentencia.close();
+            conexion.close();
 
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
