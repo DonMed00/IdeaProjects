@@ -1,15 +1,17 @@
 package ficherosExercises;
 
+
+
+
 import java.io.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 
 import static utilidades.Teclado.leerString;
 
 public class Ex16 {
     public static void main(String[] args) throws IOException {
-        File json = new File("C:\\Users\\Usuario\\IdeaProjects\\AccesoDatos\\src\\ficherosExercises\\ficheroJson.json");
+        File json = new File("C:\\Users\\Adrian\\IdeaProjects\\AccesoDatos\\src\\ficherosExercises\\ficheroJson.json");
         BufferedReader reader = null;
         Pattern pattern;
         Matcher matcher;
