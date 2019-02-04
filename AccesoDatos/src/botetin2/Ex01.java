@@ -11,7 +11,7 @@ public class Ex01 {
         Connection conexion = null;
         Statement sentencia;
 
-        File file= new File("C:\\Users\\Usuario\\Desktop\\AccesoDatos\\2018-2019 script_horario.sql");
+        File file= new File("C:\\Users\\Usuario\\Desktop\\AccesoDatos\\script_boletin.sql");
         BufferedReader reader;
         String cadena="";
         String aux="";

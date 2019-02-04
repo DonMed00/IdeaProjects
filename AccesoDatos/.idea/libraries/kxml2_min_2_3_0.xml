@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="kxml2-min-2.3.0">
     <CLASSES>
-      <root url="jar://D:/xstream-1.4.11.1/lib/xstream/kxml2-min-2.3.0.jar!/" />
-      <root url="jar://D:/xstream-1.4.11.1/lib/xpp3-1.1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Librerias/xstream-1.4.11.1/lib/xstream/kxml2-min-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Librerias/xstream-1.4.11.1/xpp3-1.1.5.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

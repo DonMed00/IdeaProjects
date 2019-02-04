@@ -27,7 +27,7 @@ public class Ex11 {
             ResultSet resul = sentencia.executeQuery(sql);
 
             System.out.printf("Horarios de %s del curso %s %s:\n",codAsig,codOe,codCurso);
-            while (resul.next ()) {
+            while (resul.next()) {
                 System.out.printf("%s, %s, %s %s %s %s. %n", resul.getString(1), resul.getString(2), resul.getString(3), resul.getString(4), resul.getString(5), resul.getString(6));
             }
 
