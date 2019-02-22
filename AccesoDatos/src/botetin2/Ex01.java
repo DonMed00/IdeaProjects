@@ -11,7 +11,7 @@ public class Ex01 {
         Connection conexion = null;
         Statement sentencia;
 
-        File file= new File("C:\\Users\\Usuario\\Desktop\\AccesoDatos\\script_boletin.sql");
+        File file= new File("C:\\Users\\Usuario\\Desktop\\AccesoDatos\\2018-2019_script_horario.sql");
         BufferedReader reader;
         String cadena="";
         String aux="";
@@ -26,7 +26,7 @@ public class Ex01 {
 
 
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conexion = DriverManager.getConnection("jdbc:mysql://localhost/?allowMultiQueries=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC", "root", "1010");
+            conexion = DriverManager.getConnection("jdbc:mysql://localhost/?allowMultiQueries=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC", "root", "");
 
 
             sentencia = conexion.createStatement();
